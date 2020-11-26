@@ -32,9 +32,9 @@ void QuadraticEquation::set_c(const double& c){
 };
 
 
-double QuadraticEquation::get_a(){return m_a;};
-double QuadraticEquation::get_b(){return m_b;};
-double QuadraticEquation::get_c(){return m_c;};
+double QuadraticEquation::get_a() const {return m_a;};
+double QuadraticEquation::get_b() const {return m_b;};
+double QuadraticEquation::get_c() const {return m_c;};
 
 
 void QuadraticEquation::getSolution(){

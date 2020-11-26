@@ -19,8 +19,6 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_lineEdit_a_textEdited(const QString &arg1);
-
     void on_edited();
 
     void on_pushButton_2_clicked();

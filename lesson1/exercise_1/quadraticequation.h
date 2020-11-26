@@ -31,9 +31,9 @@ public:
     void set_b(const double& b = 1);
     void set_c(const double& c = 0);
 
-    double get_a();
-    double get_b();
-    double get_c();
+    double get_a() const;
+    double get_b() const;
+    double get_c() const;
 
 };
 

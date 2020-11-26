@@ -59,7 +59,7 @@ void MainWindow::on_pushButton_calculate_clicked()
             message_specify += pair.first->objectName() + ", ";
             continue;
         }
-        pair.second = pair.first->text().toDouble();
+        pair.second = QLocale::system().toDouble(pair.first->text());
     }
 
     if (message_specify != "please specify ") {

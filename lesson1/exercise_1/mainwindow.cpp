@@ -50,7 +50,7 @@ void MainWindow::on_pushButton_clicked()
             message_specify += " " + var.first->objectName() + ", ";
             continue;
         }
-        var.second = var.first->text().toDouble();
+        var.second = QLocale::system().toDouble(var.first->text());
 
     }
 
