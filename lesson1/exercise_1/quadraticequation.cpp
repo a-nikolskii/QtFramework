@@ -16,19 +16,16 @@ std::vector<double> QuadraticEquation::getRoot(){return m_roots;};
 
 void QuadraticEquation::set_a(const double& a){
     m_a = a;
-    getSolution();
 };
 
 
 void QuadraticEquation::set_b(const double& b){
     m_b = b;
-    getSolution();
 };
 
 
 void QuadraticEquation::set_c(const double& c){
     m_c = c;
-    getSolution();
 };
 
 
