@@ -26,7 +26,7 @@
      <height>591</height>
     </size>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -57,14 +57,14 @@
        <item>
         <widget class="QPushButton" name="pushButton_save">
          <property name="text">
-          <string>Save</string>
+          <string>Сохранить</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_open">
          <property name="text">
-          <string>Open</string>
+          <string>Открыть</string>
          </property>
         </widget>
        </item>
